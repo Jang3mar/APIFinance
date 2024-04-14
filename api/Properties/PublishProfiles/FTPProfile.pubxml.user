@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFN60NV/uH0Wp8zBywq03OwAAAAACAAAAAAAQZgAAAAEAACAAAACOhHos8S8InU9hkW04oLlks4gYXxNvZWsTpX+jklzljQAAAAAOgAAAAAIAACAAAACj2p3J1I1N+oEnn5MmhAJHyEPuCuILdAniUnSFirIXGyAAAACq5VheYWGQmoF3ZtMUbpBOdvup58W7JMV02yd2GedO1kAAAAAnTeErzOkxZ6GyTli2H5CLvAFHRWbwG1xyTH0VbPt8OrK9G29LZYKLVuGX7PYXQHo8TTQn72xoBevn5HodIPL6</EncryptedPassword>
+    <_PublishTargetUrl>ftp://155.254.244.40/www.APIFinance.somee.com/ftp://APIFinance.somee.com/www.APIFinance.somee.com</_PublishTargetUrl>
+    <History>False|2024-04-13T17:42:38.3352955Z;False|2024-04-13T20:33:33.8948886+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="con">
+      <Value>Data Source=DESKTOP-BKO6ROR\SERVERBASE%3bInitial Catalog=FinanceDB%3bUser ID=sa%3bPassword=lox45lol1</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,156 @@
+2024-04-01 21:23:37.8191|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-04-01 21:23:37.9887|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-04-01 21:23:38.0328|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\wshma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-01 21:23:38.0328|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\wshma\AppData\Local\ASP.NET\DataProtection-Keys\key-0d18af51-81c9-49e2-8d84-5e0562073bbc.xml'.
+2024-04-01 21:23:38.0328|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\wshma\AppData\Local\ASP.NET\DataProtection-Keys\key-5447b062-96da-40ea-afba-72b63c5caf09.xml'.
+2024-04-01 21:23:38.0328|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\wshma\AppData\Local\ASP.NET\DataProtection-Keys\key-a2223c65-0415-4b70-ab3e-dfd86cca61af.xml'.
+2024-04-01 21:23:38.0328|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\wshma\AppData\Local\ASP.NET\DataProtection-Keys\key-c7238ed1-66d5-497f-ba93-0d79b0582353.xml'.
+2024-04-01 21:23:38.0328|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\wshma\AppData\Local\ASP.NET\DataProtection-Keys\key-f0b0c6f9-c705-47fb-af9b-f0204206f723.xml'.
+2024-04-01 21:23:38.0496|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {0d18af51-81c9-49e2-8d84-5e0562073bbc}.
+2024-04-01 21:23:38.0496|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {5447b062-96da-40ea-afba-72b63c5caf09}.
+2024-04-01 21:23:38.0496|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {a2223c65-0415-4b70-ab3e-dfd86cca61af}.
+2024-04-01 21:23:38.0496|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {c7238ed1-66d5-497f-ba93-0d79b0582353}.
+2024-04-01 21:23:38.0496|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {f0b0c6f9-c705-47fb-af9b-f0204206f723}.
+2024-04-01 21:23:38.0496|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {f0b0c6f9-c705-47fb-af9b-f0204206f723} with expiration date 2024-05-15 16:45:31Z as default key.
+2024-04-01 21:23:38.0496|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-01 21:23:38.0659|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2024-04-01 21:23:38.0659|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-01 21:23:38.0659|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-04-01 21:23:38.0659|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-04-01 21:23:38.0659|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {f0b0c6f9-c705-47fb-af9b-f0204206f723} as the default key.
+2024-04-01 21:23:38.0799|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {f0b0c6f9-c705-47fb-af9b-f0204206f723} was loaded during application startup.
+2024-04-01 21:23:38.2731|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5230
+2024-04-01 21:23:38.2731|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly api
+2024-04-01 21:23:38.2731|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-01 21:23:38.2731|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-01 21:23:38.2731|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-01 21:23:38.2731|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-01 21:23:38.2842|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\wshma\OneDrive\Рабочий стол\МПТ4\диплом\api\api\
+2024-04-01 21:23:38.2842|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-04-01 21:23:38.7495|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1S" accepted.
+2024-04-01 21:23:38.7567|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1T" accepted.
+2024-04-01 21:23:38.7567|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1S" started.
+2024-04-01 21:23:38.7567|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1T" started.
+2024-04-01 21:23:38.7736|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2IF3D0LN1T" received FIN.
+2024-04-01 21:23:38.7736|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2IF3D0LN1S" received FIN.
+2024-04-01 21:23:38.7902|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2IF3D0LN1S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-01 21:23:38.7902|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2IF3D0LN1T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-01 21:23:38.7902|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1S" disconnecting.
+2024-04-01 21:23:38.7902|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1T" disconnecting.
+2024-04-01 21:23:38.7902|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1S" stopped.
+2024-04-01 21:23:38.7902|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1T" stopped.
+2024-04-01 21:23:39.0746|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1U" accepted.
+2024-04-01 21:23:39.0746|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1U" started.
+2024-04-01 21:23:39.3299|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/swagger/index.html - -
+2024-04-01 21:23:39.4055|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-04-01 21:23:39.4055|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-01 21:23:39.5342|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-04-01 21:23:39.6804|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-04-01 21:23:39.6804|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1U" completed keep alive response.
+2024-04-01 21:23:39.6804|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/swagger/index.html - - - 200 - text/html;charset=utf-8 359.4668ms
+2024-04-01 21:23:39.7660|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1V" accepted.
+2024-04-01 21:23:39.7660|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1V" started.
+2024-04-01 21:23:39.7674|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/_framework/aspnetcore-browser-refresh.js - -
+2024-04-01 21:23:39.7674|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/_vs/browserLink - -
+2024-04-01 21:23:39.7922|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1U" completed keep alive response.
+2024-04-01 21:23:39.7922|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 25.1863ms
+2024-04-01 21:23:39.8604|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1V" completed keep alive response.
+2024-04-01 21:23:39.8608|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 93.5070ms
+2024-04-01 21:23:39.9925|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/swagger/favicon-32x32.png - -
+2024-04-01 21:23:39.9925|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-01 21:23:39.9925|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2IF3D0LN1V" received FIN.
+2024-04-01 21:23:39.9925|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2IF3D0LN1V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-01 21:23:39.9925|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1V" disconnecting.
+2024-04-01 21:23:39.9925|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2024-04-01 21:23:40.0100|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/swagger/v1/swagger.json - -
+2024-04-01 21:23:40.0100|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-01 21:23:40.0100|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled|System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-04-01 21:23:40.0228|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-01 21:23:40.0228|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/swagger/favicon-32x32.png - - - 0 628 image/png 30.7122ms
+2024-04-01 21:23:40.0389|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1V" stopped.
+2024-04-01 21:23:40.4141|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1U" completed keep alive response.
+2024-04-01 21:23:40.4141|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 404.6069ms
+2024-04-01 21:23:53.9474|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/api/Users - -
+2024-04-01 21:23:53.9474|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-01 21:23:53.9474|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2024-04-01 21:23:53.9752|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Users'
+2024-04-01 21:23:53.9949|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'api.Controllers.UsersController.GetUsers (api)' with route pattern 'api/Users' is valid for the request path '/api/Users'
+2024-04-01 21:23:53.9949|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'api.Controllers.UsersController.GetUsers (api)'
+2024-04-01 21:23:54.1290|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2024-04-01 21:23:54.1290|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'api.Controllers.UsersController.GetUsers (api)'
+2024-04-01 21:23:54.1927|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[api.Models.User]]] GetUsers() on controller api.Controllers.UsersController (api).
+2024-04-01 21:23:54.1927|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-04-01 21:23:54.1927|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-04-01 21:23:54.1927|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-04-01 21:23:54.1927|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-04-01 21:23:54.1927|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-04-01 21:23:54.1927|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller api.Controllers.UsersController (api)
+2024-04-01 21:23:54.5363|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-01 21:23:54.5728|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller api.Controllers.UsersController (api)
+2024-04-01 21:23:54.5728|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-04-01 21:23:54.5728|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-04-01 21:23:54.5728|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-04-01 21:23:54.5728|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-04-01 21:23:54.5849|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method api.Controllers.UsersController.GetUsers (api) - Validation state: Valid
+2024-04-01 21:23:54.5849|FATAL|api.Controllers.UsersController|You are doing well!
+2024-04-01 21:23:55.6729|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.28 initialized 'FinanceDBContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.28' with options: None
+2024-04-01 21:23:55.7390|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<User>()'
+2024-04-01 21:23:55.9941|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<User>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.IdUser (int?) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Email (string) Index MaxLength(255) Ansi, 1], [Property: User.FirstName (string) MaxLength(255) Ansi, 2], [Property: User.Login (string) Index MaxLength(25) Ansi, 3], [Property: User.MiddleName (string) MaxLength(255) Ansi, 4], [Property: User.Password (string) MaxLength(50) Ansi, 5], [Property: User.RoleId (int?), 6], [Property: User.Salt (string) MaxLength(30) Ansi, 7], [Property: User.SecondName (string) MaxLength(255) Ansi, 8] }
+        SELECT u.ID_User, u.Email, u.First_Name, u.Login, u.Middle_Name, u.Password, u.Role_ID, u.Salt, u.Second_Name
+        FROM User AS u), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, User>, 
+    api.Models.FinanceDBContext, 
+    False, 
+    False, 
+    True
+)'
+2024-04-01 21:23:56.0624|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-04-01 21:23:56.1184|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (51ms).
+2024-04-01 21:23:56.1318|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'FinanceDB' on server 'DESKTOP-BKO6ROR\SERVERBASE'.
+2024-04-01 21:23:56.5204|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'FinanceDB' on server 'DESKTOP-BKO6ROR\SERVERBASE'.
+2024-04-01 21:23:56.5204|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[ID_User], [u].[Email], [u].[First_Name], [u].[Login], [u].[Middle_Name], [u].[Password], [u].[Role_ID], [u].[Salt], [u].[Second_Name]
+FROM [User] AS [u]
+2024-04-01 21:23:56.5985|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (68ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [u].[ID_User], [u].[Email], [u].[First_Name], [u].[Login], [u].[Middle_Name], [u].[Password], [u].[Role_ID], [u].[Salt], [u].[Second_Name]
+FROM [User] AS [u]
+2024-04-01 21:23:56.6661|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'FinanceDBContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-01 21:23:56.7037|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'FinanceDBContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-01 21:23:56.7037|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'FinanceDBContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-01 21:23:56.7037|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'FinanceDBContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-01 21:23:56.7172|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-04-01 21:23:56.7248|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'FinanceDB' on server 'DESKTOP-BKO6ROR\SERVERBASE'.
+2024-04-01 21:23:56.7248|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'FinanceDB' on server 'DESKTOP-BKO6ROR\SERVERBASE'.
+2024-04-01 21:23:56.7415|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method api.Controllers.UsersController.GetUsers (api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2151.217ms.
+2024-04-01 21:23:56.7415|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-04-01 21:23:56.7415|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-04-01 21:23:56.7415|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-04-01 21:23:56.7415|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-04-01 21:23:56.7415|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-04-01 21:23:56.7415|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-04-01 21:23:56.7415|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-04-01 21:23:56.7415|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-04-01 21:23:56.7554|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-04-01 21:23:56.7554|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-04-01 21:23:56.7554|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-01 21:23:56.7554|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-01 21:23:56.7554|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-01 21:23:56.7554|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[api.Models.User, api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-01 21:23:56.7554|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-04-01 21:23:56.7554|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-04-01 21:23:56.7554|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-04-01 21:23:56.7684|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action api.Controllers.UsersController.GetUsers (api) in 2569.1607ms
+2024-04-01 21:23:56.7684|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'api.Controllers.UsersController.GetUsers (api)'
+2024-04-01 21:23:56.7834|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2IF3D0LN1U" completed keep alive response.
+2024-04-01 21:23:56.7834|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'FinanceDBContext' disposed.
+2024-04-01 21:23:56.7991|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/api/Users - - - 200 - application/json;+charset=utf-8 2851.6809ms
