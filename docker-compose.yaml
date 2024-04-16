@@ -1,0 +1,29 @@
+version: '1'
+
+services:
+  api:
+    restart: always
+    build: .
+    ports:
+      - "5230:80"
+    depends_on:
+      - db
+    environment:
+      ConnectionStrings__DefaultConnection: "Data Source=DESKTOP-BKO6ROR\\SERVERBASE;Initial Catalog=FinanceDB;User ID=sa;Password=lox45lol1"
+
+  db:
+    restart: always
+    image: mcr.microsoft.com/mssql/server:latest
+    environment:
+      SA_PASSWORD: "lox45lol1"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+      MSSQL_TCP_PORT: "1433"
+    ports:
+      - "1433:1433"
+
+  adminer:
+    restart: always
+    image: adminer
+    ports:
+      - 8888:8080

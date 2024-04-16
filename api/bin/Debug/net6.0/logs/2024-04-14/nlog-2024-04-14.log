@@ -1,0 +1,108 @@
+2024-04-14 22:32:25.7554|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-04-14 22:32:25.9920|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-04-14 22:32:26.0340|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\wshma\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-14 22:32:26.0679|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\wshma\AppData\Local\ASP.NET\DataProtection-Keys\key-0d18af51-81c9-49e2-8d84-5e0562073bbc.xml'.
+2024-04-14 22:32:26.3094|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\wshma\AppData\Local\ASP.NET\DataProtection-Keys\key-5447b062-96da-40ea-afba-72b63c5caf09.xml'.
+2024-04-14 22:32:26.3094|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\wshma\AppData\Local\ASP.NET\DataProtection-Keys\key-a2223c65-0415-4b70-ab3e-dfd86cca61af.xml'.
+2024-04-14 22:32:26.3094|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\wshma\AppData\Local\ASP.NET\DataProtection-Keys\key-c7238ed1-66d5-497f-ba93-0d79b0582353.xml'.
+2024-04-14 22:32:26.3094|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\wshma\AppData\Local\ASP.NET\DataProtection-Keys\key-f0b0c6f9-c705-47fb-af9b-f0204206f723.xml'.
+2024-04-14 22:32:26.3094|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {0d18af51-81c9-49e2-8d84-5e0562073bbc}.
+2024-04-14 22:32:26.3220|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {5447b062-96da-40ea-afba-72b63c5caf09}.
+2024-04-14 22:32:26.3220|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {a2223c65-0415-4b70-ab3e-dfd86cca61af}.
+2024-04-14 22:32:26.3220|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {c7238ed1-66d5-497f-ba93-0d79b0582353}.
+2024-04-14 22:32:26.3220|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {f0b0c6f9-c705-47fb-af9b-f0204206f723}.
+2024-04-14 22:32:26.3220|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {f0b0c6f9-c705-47fb-af9b-f0204206f723} with expiration date 2024-05-15 16:45:31Z as default key.
+2024-04-14 22:32:26.3374|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-14 22:32:26.3374|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2024-04-14 22:32:26.3374|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-14 22:32:26.3374|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-04-14 22:32:26.3529|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-04-14 22:32:26.3529|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {f0b0c6f9-c705-47fb-af9b-f0204206f723} as the default key.
+2024-04-14 22:32:26.3529|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {f0b0c6f9-c705-47fb-af9b-f0204206f723} was loaded during application startup.
+2024-04-14 22:32:27.0111|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5230
+2024-04-14 22:32:27.0111|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly api
+2024-04-14 22:32:27.0111|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-14 22:32:27.0111|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-14 22:32:27.0111|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-14 22:32:27.0111|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-14 22:32:27.0260|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\wshma\OneDrive\Рабочий стол\МПТ4\диплом\api\api\
+2024-04-14 22:32:27.0260|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-04-14 22:32:27.3277|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51H" accepted.
+2024-04-14 22:32:27.4308|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51I" accepted.
+2024-04-14 22:32:27.5293|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51I" started.
+2024-04-14 22:32:27.5293|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51H" started.
+2024-04-14 22:32:28.7041|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51J" accepted.
+2024-04-14 22:32:28.7041|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51J" started.
+2024-04-14 22:32:28.9220|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/swagger/index.html - -
+2024-04-14 22:32:28.9830|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-04-14 22:32:28.9830|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-14 22:32:29.0971|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-04-14 22:32:29.3436|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-04-14 22:32:29.3436|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51J" completed keep alive response.
+2024-04-14 22:32:29.3436|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/swagger/index.html - - - 200 - text/html;charset=utf-8 429.3514ms
+2024-04-14 22:32:29.4151|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51K" accepted.
+2024-04-14 22:32:29.4151|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51K" started.
+2024-04-14 22:32:29.4151|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2SN6F3O51J" received FIN.
+2024-04-14 22:32:29.4485|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/_framework/aspnetcore-browser-refresh.js - -
+2024-04-14 22:32:29.4485|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/swagger/swagger-ui.css - -
+2024-04-14 22:32:29.4485|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-14 22:32:29.4683|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51L" accepted.
+2024-04-14 22:32:29.4683|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51L" started.
+2024-04-14 22:32:29.4683|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/_vs/browserLink - -
+2024-04-14 22:32:29.4683|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2SN6F3O51J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-14 22:32:29.4683|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51J" disconnecting.
+2024-04-14 22:32:29.4683|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51K" completed keep alive response.
+2024-04-14 22:32:29.4683|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/_framework/aspnetcore-browser-refresh.js - - - 200 11976 application/javascript;+charset=utf-8 25.1466ms
+2024-04-14 22:32:29.4683|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2024-04-14 22:32:29.4918|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled|System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-04-14 22:32:29.4956|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-14 22:32:29.4956|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/swagger/swagger-ui.css - - - 0 143632 text/css 47.4124ms
+2024-04-14 22:32:29.4956|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51J" stopped.
+2024-04-14 22:32:29.5999|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51L" completed keep alive response.
+2024-04-14 22:32:29.5999|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 131.0918ms
+2024-04-14 22:32:29.6834|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2SN6F3O51L" received FIN.
+2024-04-14 22:32:29.6834|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/swagger/favicon-32x32.png - -
+2024-04-14 22:32:29.6834|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-14 22:32:29.6834|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2SN6F3O51L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-14 22:32:29.6834|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51L" disconnecting.
+2024-04-14 22:32:29.6834|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2024-04-14 22:32:29.6834|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The file transmission was cancelled|System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+2024-04-14 22:32:29.6834|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-04-14 22:32:29.6834|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/swagger/favicon-32x32.png - - - 0 628 image/png 2.4500ms
+2024-04-14 22:32:29.6834|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51L" stopped.
+2024-04-14 22:32:29.7605|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/swagger/v1/swagger.json - -
+2024-04-14 22:32:29.7605|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-14 22:32:30.0297|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51K" completed keep alive response.
+2024-04-14 22:32:30.0297|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 269.4293ms
+2024-04-14 22:32:45.8450|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/api/Categories - -
+2024-04-14 22:32:45.8450|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-14 22:32:45.8450|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2024-04-14 22:32:45.8881|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Categories'
+2024-04-14 22:32:45.8881|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'api.Controllers.CategoriesController.GetCategories (api)' with route pattern 'api/Categories' is valid for the request path '/api/Categories'
+2024-04-14 22:32:45.8881|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'api.Controllers.CategoriesController.GetCategories (api)'
+2024-04-14 22:32:46.0029|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2024-04-14 22:32:46.0137|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-14 22:32:46.0137|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-04-14 22:32:46.0357|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51K" completed keep alive response.
+2024-04-14 22:32:46.0357|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/api/Categories - - - 401 0 - 190.9208ms
+2024-04-14 22:33:09.1486|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5230/api/Categories - -
+2024-04-14 22:33:09.1486|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-14 22:33:09.1531|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2024-04-14 22:33:09.1531|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Categories'
+2024-04-14 22:33:09.1531|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'api.Controllers.CategoriesController.GetCategories (api)' with route pattern 'api/Categories' is valid for the request path '/api/Categories'
+2024-04-14 22:33:09.1531|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'api.Controllers.CategoriesController.GetCategories (api)'
+2024-04-14 22:33:09.1717|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2024-04-14 22:33:09.1717|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-14 22:33:09.1717|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2024-04-14 22:33:09.1717|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2SN6F3O51K" completed keep alive response.
+2024-04-14 22:33:09.1717|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5230/api/Categories - - - 401 0 - 30.0160ms
